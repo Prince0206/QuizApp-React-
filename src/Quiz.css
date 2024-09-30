@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-card {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  width: 80%;
+}
+
+.container .center {
+  text-align: center;
+}
+
+.options-container {
+  margin-top: 15px;
+}
+
+.answer-options {
+  list-style: none;
+  padding: 0;
+}
+
+.answer-options li label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table,
+th,
+td {
+    border: 1px solid #ddd ;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+   background-color: rgb(209, 209, 209);
+}
+
+/* mobile  */
+@media (max-width: 780px) {
+    .quiz-card {
+       width: 75%;
+       padding: 15px; 
+    }
+}
